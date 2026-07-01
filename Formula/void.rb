@@ -7,17 +7,17 @@ class Void < Formula
   on_macos do
     on_arm do
       url "https://github.com/p6laris/Void/releases/download/v0.4.0-beta.1/void-macos-arm64.tar.gz"
-      sha256 "6a6c29a281c7f8d706cd803722670f99ab62d90167ae14ad2eff87700ce8a3de"
+      sha256 "741d21928cbe31042f294b071e38df1ad0b9e95e587d14e7bf1ecae0701389ae"
     end
     on_intel do
       url "https://github.com/p6laris/Void/releases/download/v0.4.0-beta.1/void-macos-amd64.tar.gz"
-      sha256 "4ef3827478e52ef81bac3b4b53a6ed13c7e94030e006f0863d5241420090295a"
+      sha256 "6f5572729705a9df8e947ada685577b3138bce552f61e697a612939eedc2b242"
     end
   end
 
   on_linux do
     url "https://github.com/p6laris/Void/releases/download/v0.4.0-beta.1/void-linux-amd64.tar.gz"
-    sha256 "0c0df806254a503668fe8827c7bb852a15f84b3a0c4e15cd45979ba8b0636045"
+    sha256 "794c81952b395b9240cbfcfb78ee325b9d0f7f9a9ba77efd98532e570c1366d5"
   end
 
   def install
